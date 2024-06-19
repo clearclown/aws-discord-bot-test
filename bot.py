@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 
 intents = discord.Intents.default()
-intents.messages = True  # メッセージコンテンツのインテントを有効にする
+intents.message_content = True  # メッセージコンテンツのインテントを有効にする
 client = discord.Client(intents=intents)
 
 @client.event
@@ -21,6 +21,8 @@ async def on_message(message):
         return
 
     if message.content.lower() == 'test':
+        await message.channel.send('Hi')
+    elif client.user.mentioned_in(message):
         await message.channel.send('Hi')
 
 # Error handling
