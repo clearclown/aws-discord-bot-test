@@ -5,8 +5,7 @@ import logging
 # Logger setup
 logging.basicConfig(level=logging.DEBUG)
 
-intents = discord.Intents.default()
-intents.message_content = True  # メッセージコンテンツのインテントを有効にする
+intents = discord.Intents.all()  # すべてのインテントを有効にする
 client = discord.Client(intents=intents)
 
 @client.event
