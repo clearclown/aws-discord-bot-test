@@ -15,7 +15,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-    logging.debug(f'Received message: {message.content}')
+    logging.debug(f'Received message from {message.author}: {message.content}')
 
     if message.author == client.user:
         return
