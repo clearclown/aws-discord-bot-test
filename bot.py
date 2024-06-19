@@ -6,6 +6,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 
 intents = discord.Intents.default()
+intents.message_content = True
 client = discord.Client(intents=intents)
 
 @client.event
@@ -19,7 +20,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content == 'test':
+    if message.content.lower() == 'test':
         await message.channel.send('Hi')
 
 # Error handling
