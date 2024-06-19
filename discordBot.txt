@@ -1,5 +1,0 @@
-name : aws-D-bot-test
-APPLICATION ID : 1252941313045823529
-PUBLIC KEY : c64747419cef541d5ceb07bf0699d5d7cf5f31bbc58ab7d740ecaf346570d8ab
-https://discord.com/oauth2/authorize?client_id=1252941313045823529&permissions=8&integration_type=0&scope=bot
-TOKEN : MTI1Mjk0MTMxMzA0NTgyMzUyOQ.Gfp16W.F9vgoVn3KZxs3y8rrBst3543wAFOCMgDkBF_ig
