@@ -25,7 +25,7 @@
 3. `docker-compose up -d` コマンドで Docker コンテナを起動する。
 
 ### エラーなどはこちらへ。
-[Issue](https://github.com/arealnormalman/aws-discord-bot-test/issues)
+[Issue](https://github.com/clearclown/aws-discord-bot-test/issues)
 
 ## English
 
@@ -48,9 +48,12 @@ This repository is for testing a Discord Bot running on AWS. The technology stac
 3. Start the Docker container with the `docker-compose up -d` command.
 
 ### Report Issues Here
-[Issue](https://github.com/arealnormalman/aws-discord-bot-test/issues)
+[Issue](https://github.com/clearclown/aws-discord-bot-test/issues)
 
 ## Profile Links
 - Twitter: [@arealnormalman](https://www.x.com/arealnormalman)
 - Instagram: [@nm_a.normal.man](https://www.instagram.com/nm_a.normal.man/)
 - LinkedIn: [@arealnormalman](https://www.linkedin.com/in/arealnormalman/)
+
+## License
+This project is licensed under the MIT License. Because, why not? Everyone else is doing it. But remember, with great power comes no responsibility.
